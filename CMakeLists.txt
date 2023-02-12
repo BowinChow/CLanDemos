@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(CLanDemo C)
+include_directories(include)
+aux_source_directory(include SOURCE)
+set(CMAKE_C_STANDARD 99)
+add_executable(CLanDemo main.c ${SOURCE})
