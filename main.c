@@ -114,10 +114,12 @@ void sortDemo() {
     int size = (int) sizeof(arr) / sizeof(arr[0]);
     printArray(arr, size);
     quickSort(arr, 0, size - 1);
-    printf("----------------------\n");
+    printf("----------------------------------------------------\n");
     printArray(arr, size);
 }
 
 int main() {
+    printf("main\n");
+    sortDemo();
     return 0;
 }

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLanDemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/ClionProjects/CLanDemos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLanDemo">
+				<Option output="D:/ClionProjects/CLanDemos/cmake-build-debug/CLanDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ClionProjects/CLanDemos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ClionProjects/CLanDemos/include"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLanDemo"/>
+					<CompileFile command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLanDemo/fast">
+				<Option output="D:/ClionProjects/CLanDemos/cmake-build-debug/CLanDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ClionProjects/CLanDemos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ClionProjects/CLanDemos/include"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/idea/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLanDemo/fast"/>
+					<CompileFile command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/ClionProjects/CLanDemos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/ClionProjects/CLanDemos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/idea/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CLanDemos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/ClionProjects/CLanDemos/include/ArrayHelper.c">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/include/ArrayHelper.h">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/include/BinaryTree.c">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/include/BinaryTree.h">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/include/Sortor.c">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/include/Sortor.h">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/main.c">
+			<Option target="CLanDemo"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CLanDemos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
