@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "include/BinaryTree.h"
-#include "include/ArrayHelper.h"
 #include "include/Sortor.h"
 #include <math.h>
 #include <string.h>
