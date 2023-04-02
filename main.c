@@ -3,6 +3,7 @@
 #include "include/Sortor.h"
 #include <math.h>
 #include <string.h>
+#include "unlockqueue.h"
 
 void primeNumber(int number) {
     int upLine = sqrt(number);
@@ -117,8 +118,26 @@ void sortDemo() {
     printArray(arr, size);
 }
 
+
+void s_gets(char *s, int n) {
+    char *ret;
+    char *find;
+
+    ret = fgets(s, n, stdin);
+    if (ret) {
+        find = strchr(ret, '\n');
+        if (find) {
+            *find = '\0';
+        } else {
+            while (getchar() != '\n');
+        }
+    }
+
+}
+
 int main() {
-    printf("main\n");
-    sortDemo();
+//    char s[5] = {0};
+//    s_gets(s, 5);
+init_demo();
     return 0;
 }

@@ -1,6 +1,8 @@
 # ninja log v5
 0	600	6982429766141804	CMakeFiles/CLanDemo.dir/include/ArrayHelper.c.obj	587611a35c1e7e66
 68	614	6982429766501174	CMakeFiles/CLanDemo.dir/include/BinaryTree.c.obj	6cc9c93049abd875
-58	619	6982429766550715	CMakeFiles/CLanDemo.dir/main.c.obj	43757b8df749e0a6
+2	262	7021170105852140	CMakeFiles/CLanDemo.dir/main.c.obj	43757b8df749e0a6
+276	562	7021169972128884	CLanDemo.exe	2326c878df4f9971
 63	622	6982429766580638	CMakeFiles/CLanDemo.dir/include/Sortor.c.obj	ef9f9e1e2f224572
-623	1141	6982429771710104	CLanDemo.exe	2326c878df4f9971
+3	660	7021171894358743	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+662	1048	7021171898179597	CLanDemo.exe	5b49630e600afdbf
