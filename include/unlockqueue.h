@@ -16,6 +16,8 @@
 #include <pthread.h>
 #include <time.h>
 
+extern double time_unlock_R, time_unlock_W, time_lock_R, time_lock_W;
+
 
 typedef int lfr_ele_t;
 typedef struct lfr_queue_t {
@@ -36,6 +38,7 @@ typedef struct thread_arg_t {
     char type;
     push_fn push;
     pop_fn pop;
+    int id;
 } thread_arg;
 
 void lfr_queue_init(lfr_queue *queue, size_t size);

@@ -1,8 +1,17 @@
 # ninja log v5
 0	600	6982429766141804	CMakeFiles/CLanDemo.dir/include/ArrayHelper.c.obj	587611a35c1e7e66
 68	614	6982429766501174	CMakeFiles/CLanDemo.dir/include/BinaryTree.c.obj	6cc9c93049abd875
-2	262	7021170105852140	CMakeFiles/CLanDemo.dir/main.c.obj	43757b8df749e0a6
-276	562	7021169972128884	CLanDemo.exe	2326c878df4f9971
-63	622	6982429766580638	CMakeFiles/CLanDemo.dir/include/Sortor.c.obj	ef9f9e1e2f224572
-3	660	7021171894358743	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+2	285	7021203385210301	CMakeFiles/CLanDemo.dir/main.c.obj	43757b8df749e0a6
 662	1048	7021171898179597	CLanDemo.exe	5b49630e600afdbf
+63	622	6982429766580638	CMakeFiles/CLanDemo.dir/include/Sortor.c.obj	ef9f9e1e2f224572
+56	628	7021203388635464	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+2	289	7021205611470431	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+290	563	7021205614141877	CLanDemo.exe	5b49630e600afdbf
+3	663	7021208017611537	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+664	927	7021208020214743	CLanDemo.exe	5b49630e600afdbf
+2	267	7021208980156973	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+270	601	7021208983475123	CLanDemo.exe	5b49630e600afdbf
+2	261	7021211112561554	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+262	549	7021211115390650	CLanDemo.exe	5b49630e600afdbf
+2	262	7021211880715269	CMakeFiles/CLanDemo.dir/include/unlockqueue.c.obj	437f479b9a696c3f
+263	553	7021211883570428	CLanDemo.exe	5b49630e600afdbf

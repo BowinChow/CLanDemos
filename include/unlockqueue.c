@@ -5,6 +5,8 @@
 #include "unlockqueue.h"
 #include <stdlib.h>
 
+double time_unlock_R = 0.0, time_unlock_W = 0.0, time_lock_R = 0.0, time_lock_W = 0.0;
+
 void lfr_queue_init(lfr_queue *queue, size_t size) {
     memset(queue, 0, sizeof(*queue));
     queue->size = size + 1;
@@ -85,7 +87,7 @@ void *thread_func(void *a) {
     clock_gettime(CLOCK_THREAD_CPUTIME_ID, &time1);
     if (arg->type == 'W') {
 
-        lfr_ele_t e = 10000000;
+        lfr_ele_t e = 100000000;
         while (true) {
             if (arg->push(queue, &e)) {
                 if (--e < 0) {
@@ -106,6 +108,21 @@ void *thread_func(void *a) {
 
     clock_gettime(CLOCK_THREAD_CPUTIME_ID, &time2);
     printf("%c Thread time = %fms\n", arg->type, time_diff(&time1, &time2));
+
+    if (arg->id == 0) {
+        if (arg->type == 'W') {
+            time_lock_W = time_diff(&time1, &time2);
+        } else {
+            time_lock_R = time_diff(&time1, &time2);
+        }
+
+    } else {
+        if (arg->type == 'W') {
+            time_unlock_W = time_diff(&time1, &time2);
+        } else {
+            time_unlock_R = time_diff(&time1, &time2);
+        }
+    }
     return NULL;
 }
 
@@ -136,6 +153,7 @@ void init_demo() {
             args[i].type = i == 0 ? 'W' : 'R';
             args[i].push = cases[k].push;
             args[i].pop = cases[k].pop;
+            args[i].id = k;
             pthread_create(&tid[i], NULL, thread_func, args + i);
         }
         for (i = 0; i < NUM; ++i) {
@@ -143,7 +161,9 @@ void init_demo() {
 
         }
         lfr_free(&queue);
-
     }
+    printf("the write efficiency improved: %f and the read efficiency improved: %f\n",
+           (time_lock_W - time_unlock_W) / time_unlock_W * 100.0,
+           (time_lock_R - time_unlock_R) / time_unlock_R * 100.0);
 }
 
